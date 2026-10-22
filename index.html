@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080711">
+  <meta name="description" content="VELORA — Discover exceptional sarees where Indian heritage meets futuristic luxury.">
+  <title>VELORA — The Art of Saree</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-brand">VELORA<span>.</span></div>
+    <div class="loader-track"><span></span></div>
+    <p>ENTERING A WORLD OF ELEGANCE</p>
+  </div>
+
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo" aria-label="VELORA home">
+      <span class="logo-symbol">V</span>
+      <span class="logo-copy">VELORA<small>THE ART OF SAREE</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#collections">Collections</a>
+      <a class="nav-link" href="#story">Our Story</a>
+      <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <a href="#collections" class="nav-cta">Discover <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> HERITAGE REIMAGINED</div>
+        <h1>Tradition,<br>in a <em>new light.</em></h1>
+        <p class="hero-description">
+          Not just a saree. A feeling, an identity, a story woven
+          into every thread. Discover the extraordinary.
+        </p>
+        <div class="hero-actions">
+          <a class="button-primary" href="#collections">Explore Collection <span>↗</span></a>
+          <a class="button-text" href="#story"><span class="play-icon">▶</span> Our philosophy</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>01</strong><span>TIMELESS CRAFT</span></div>
+          <div><strong>∞</strong><span>MODERN EXPRESSION</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="heroVisual">
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+        <div class="hero-image-wrap">
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=90"
+            alt="Elegant Indian traditional fashion editorial"
+            fetchpriority="high"
+          >
+        </div>
+        <div class="hero-image-shade"></div>
+        <div class="floating-tag tag-top"><span>✳</span> MADE TO BE REMEMBERED</div>
+        <div class="floating-tag tag-bottom">
+          <span class="tag-number">01 / 04</span>
+          <span class="tag-line"></span>
+          <span>THE SIGNATURE EDIT</span>
+        </div>
+        <div class="hero-side-label">ELEGANCE IS AN EXPERIENCE</div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>DESIGNED FOR YOUR MOMENTS</span>
+        <div class="scroll-indicator"><span></span></div>
+        <span>SCROLL TO DISCOVER</span>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="benefit"><span class="benefit-icon">✳</span><div><h3>Exceptional Craft</h3><p>Details that matter</p></div></div>
+      <div class="benefit"><span class="benefit-icon">◇</span><div><h3>Curated Collections</h3><p>Chosen with intention</p></div></div>
+      <div class="benefit"><span class="benefit-icon">↗</span><div><h3>Modern Heritage</h3><p>Tradition, transformed</p></div></div>
+      <div class="benefit"><span class="benefit-icon">○</span><div><h3>Personal Service</h3><p>Your style, your story</p></div></div>
+    </section>
+
+    <section class="collections section-padding" id="collections">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow"><span class="status-dot"></span> THE VELORA UNIVERSE</div>
+          <h2>Find your <em>kind of extraordinary.</em></h2>
+        </div>
+        <p>Every collection has a personality.<br>Find the one that feels like you.</p>
+      </div>
+
+      <div class="collection-grid">
+        <a class="collection-card reveal" href="#contact" data-collection="Royal Silk">
+          <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=850&q=85" alt="Elegant traditional silk fashion" loading="lazy">
+          <div class="card-overlay"></div>
+          <span class="card-index">01 — THE CLASSIC</span>
+          <div class="card-info"><div><h3>Royal Silk</h3><p>For the moments that matter</p></div><span class="card-arrow">↗</span></div>
+        </a>
+
+        <a class="collection-card reveal" href="#contact" data-collection="Modern Muse">
+          <img src="https://images.unsplash.com/photo-1583391733981-849840b8b8a5?auto=format&fit=crop&w=850&q=85" alt="Contemporary Indian fashion inspiration" loading="lazy">
+          <div class="card-overlay"></div>
+          <span class="card-index">02 — THE MODERN</span>
+          <div class="card-info"><div><h3>Modern Muse</h3><p>Confidence, in every drape</p></div><span class="card-arrow">↗</span></div>
+        </a>
+
+        <a class="collection-card reveal" href="#contact" data-collection="Celebration Edit">
+          <img src="https://images.unsplash.com/photo-1597983073493-88cd35cf93b0?auto=format&fit=crop&w=850&q=85" alt="Festive Indian fashion aesthetic" loading="lazy">
+          <div class="card-overlay"></div>
+          <span class="card-index">03 — THE CELEBRATION</span>
+          <div class="card-info"><div><h3>Celebration Edit</h3><p>Made for unforgettable days</p></div><span class="card-arrow">↗</span></div>
+        </a>
+
+        <a class="collection-card reveal" href="#contact" data-collection="The Heirloom">
+          <img src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=850&q=85" alt="Rich textile and Indian fashion details" loading="lazy">
+          <div class="card-overlay"></div>
+          <span class="card-index">04 — THE HEIRLOOM</span>
+          <div class="card-info"><div><h3>The Heirloom</h3><p>Beauty beyond generations</p></div><span class="card-arrow">↗</span></div>
+        </a>
+      </div>
+      <div class="collection-footer reveal"><span>CRAFTED WITH FEELING. WORN WITH PURPOSE.</span><a href="#contact">Find your saree <span>↗</span></a></div>
+    </section>
+
+    <section class="story section-padding" id="story">
+      <div class="story-visual reveal">
+        <div class="story-frame">
+          <img src="https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=85" alt="Traditional textile craftsmanship" loading="lazy">
+          <div class="story-frame-glow"></div>
+        </div>
+        <div class="story-stamp"><span>V</span><small>ROOTED IN<br>HERITAGE</small></div>
+        <div class="story-caption">BEAUTY IS IN THE DETAILS — ALWAYS.</div>
+      </div>
+
+      <div class="story-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> A DIFFERENT KIND OF LUXURY</div>
+        <h2>Some things<br>are worn.<br><em>Some are felt.</em></h2>
+        <p>We believe a saree is more than fabric. It carries memories, celebrates beginnings and gives every woman a language of her own.</p>
+        <p>VELORA brings that timeless emotion into a new era — where thoughtful curation meets contemporary design, and every detail has a reason to exist.</p>
+        <a class="button-outline" href="#experience">Discover our world <span>↗</span></a>
+        <div class="signature">The beauty of being you.</div>
+      </div>
+    </section>
+
+    <section class="manifesto" id="experience">
+      <div class="manifesto-glow"></div>
+      <div class="manifesto-content reveal">
+        <div class="eyebrow"><span class="status-dot"></span> THE VELORA PHILOSOPHY</div>
+        <h2>Not made to follow.<br><em>Made to feel timeless.</em></h2>
+        <p>For the woman who honours her roots and writes her own future.</p>
+        <a class="button-primary" href="#contact">Let's find your style <span>↗</span></a>
+      </div>
+      <div class="manifesto-decoration">V.</div>
+    </section>
+
+    <section class="contact section-padding" id="contact">
+      <div class="contact-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> YOUR STORY STARTS HERE</div>
+        <h2>Let's find the<br>saree that feels<br><em>like you.</em></h2>
+        <p>Tell us what you're looking for. Whether it's a celebration, a gift or simply something beautiful, we'd love to help.</p>
+        <div class="contact-note"><span>✳</span> PERSONAL ATTENTION. THOUGHTFUL CHOICES.</div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <label for="customerName">YOUR NAME</label>
+        <input type="text" id="customerName" name="name" placeholder="How should we call you?" required>
+
+        <label for="customerEmail">EMAIL ADDRESS</label>
+        <input type="email" id="customerEmail" name="email" placeholder="you@example.com" required>
+
+        <label for="occasion">WHAT ARE YOU LOOKING FOR?</label>
+        <select id="occasion" name="occasion" required>
+          <option value="" disabled selected>Choose your occasion</option>
+          <option>Wedding</option>
+          <option>Festive celebration</option>
+          <option>Everyday elegance</option>
+          <option>Gift for someone special</option>
+          <option>Something unique</option>
+        </select>
+
+        <label for="message">TELL US A LITTLE MORE <span>(OPTIONAL)</span></label>
+        <textarea id="message" name="message" rows="3" placeholder="Colours, styles, occasion..."></textarea>
+
+        <button class="button-primary form-submit" type="submit">Start a conversation <span>↗</span></button>
+        <p class="form-status" id="formStatus" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo footer-logo"><span class="logo-symbol">V</span><span class="logo-copy">VELORA<small>THE ART OF SAREE</small></span></a>
+    <p>Rooted in heritage. Designed for tomorrow.</p>
+    <div class="footer-links"><a href="#home">Home</a><a href="#collections">Collections</a><a href="#story">Our story</a><a href="#contact">Contact</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> VELORA. ALL RIGHTS RESERVED.</span><a href="#home">BACK TO THE TOP ↑</a></div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+</body>
+</html>
